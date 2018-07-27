@@ -1,0 +1,20 @@
+#word_coffee_about {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    color: #666;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+    width: 66%;
+}
+
+#word_coffee_about h1 {
+    font-size: 20pt;
+    color: #000;
+    margin-bottom: 1.5em;
+}
+
+#word_coffee_about a {
+    text-decoration: none;
+}

@@ -1,0 +1,53 @@
+.pc_edit_list {
+    clear: both;
+}
+
+.pc_edit_list ul, .pc_edit_list ul li ul {
+    list-style: none;
+    clear: both;
+}
+
+.pc_edit_list ul li {
+    width: 100%;
+}
+
+.pc_edit_list ul li .pc_item_info, .pc_edit_list ul li ul .pc_item_info {
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    padding: 5px 20px;
+    clear:both;
+    margin-bottom: 10px;
+}
+
+.pc_edit_list ul li ul .pc_item_info {
+    margin-left: 50px;
+}
+
+.pc_edit_list ul li.sortable-placeholder {
+    background-color: #fff;
+    border: 1px #ccc dotted;
+    height: 30px;
+    margin: 0px 25px;
+    width: 500px;
+}
+
+.pc_edit_list ul li ul li.sortable-placeholder {
+    margin-left: 50px;
+}
+
+
+.pc_item_info .pc_item_name {
+    float: left;
+}
+
+.pc_item_info .pc_item_options {
+    float: right;
+}
+
+
+#pc_edit_form {
+    border: 1px dashed #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}

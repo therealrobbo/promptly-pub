@@ -1,0 +1,100 @@
+#prompt {
+    font-size: 110%;
+    text-align:  center;
+    background-color: #fafafa;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+#prompt.prompt_hidden {
+    padding: 0;
+    border: 0;
+    float: right;
+    width: auto;
+    margin: 0;
+}
+
+#prompt.prompt_small {
+    margin-left: 5%;
+    width: 90%;
+    padding: 10px 10px 5px;
+    margin-bottom: 10px;
+}
+
+#prompt h3 {
+    font-size: 15pt;
+    color: #aaa;
+    margin-bottom: 10pt;
+}
+
+#prompt_text {
+    color: #444;
+    font-size: 20pt;
+}
+
+#prompt.prompt_small #prompt_text {
+    font-size: 12pt;
+}
+
+#prompt_buttons {
+    float: right;
+}
+.prompt_small h3,
+.prompt_small #prompt_shrink,
+.prompt_hidden h3,
+.prompt_hidden #prompt_shrink,
+.prompt_hidden #prompt_grow,
+.prompt_hidden #prompt_hide,
+.prompt_hidden #prompt_text {
+    display: none;
+}
+.prompt_small #prompt_grow, .prompt_small #prompt_hide, .prompt_full #prompt_hide {
+    display: block;
+}
+.prompt_full #prompt_shrink {
+    display: block;
+}
+.prompt_full #prompt_grow {
+    display: none;
+}
+
+#just_write {
+    width: 90%;
+    margin: auto;
+}
+
+
+.trumbowyg-box, .trumbowyg-editor, .trumbowyg-box p {
+    font-family: 'Slabo 27px', "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 15pt;
+    line-height: 1.2em;
+    font-weight: normal;
+}
+
+.trumbowyg-box p {
+    margin-bottom: 1em;
+}
+
+.trumbowyg-box p em {
+    font-style: italic;
+}
+
+#writing_widgets {
+    float: right;
+    padding: 10px;
+}
+
+#coffee_conrol_view, #coffee_control_download, #coffee_download_form, #coffee_control_rate, #coffee_control_login {
+    display: none;
+}
+
+#prompt_state {
+    display: none;
+    float: left;
+    font-size: 100%;
+    margin-right: 10px;
+    margin-top: 2px;
+    padding: 0.4em 0.6em;
+}

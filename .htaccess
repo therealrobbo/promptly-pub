@@ -1,0 +1,17 @@
+RewriteEngine on
+#RewriteRule ^/?([a-z/]+)\.(gif|png|jpg)$ index.php?type=$2&image=$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?a=$1 [NC,L]
+
+
+#----------------- No authentication for LOC
+#AuthUserFile /var/www/htpasswd
+#AuthGroupFile /dev/null
+#AuthName "Krypton"
+#AuthType Basic
+
+#<Limit GET POST>
+#require valid-user
+#</Limit>
+#----------------- END No authentication for LOC

@@ -1,0 +1,4 @@
+.dropbox
+.idea
+.idea/*
+/config/environment.inc.php

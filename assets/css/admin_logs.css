@@ -1,0 +1,64 @@
+#log-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+#log_window {
+    width: 910px;
+    height: 600px;
+    overflow: auto;
+    font-family: monospace;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#log-wrapper.fullscreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+#log_controls {
+    margin-bottom: 10px;
+}
+
+.log-data-toggle, .log-block-toggle {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.log-data-toggle {
+    border: 2px solid #666;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px 3px;
+}
+
+.log-data-closed, .log-block-closed {
+    display: inline;
+    margin-left: 10px;
+}
+
+.log-data-closed .log-data-block, .log-block-closed .log-block-body {
+    display: none;
+}
+
+#change_log_ajax_loader {
+    margin-top: -10px;
+    display: none;
+}
+
+ins {
+    background-color: #c6ffc6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+del {
+    background-color: #ffc6c6;
+    font-weight: bold;
+}

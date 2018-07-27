@@ -1,0 +1,21 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?a=$1 [NC,L]
+
+
+## Removing password control 10/6 as per conversation with JW
+#AuthUserFile /var/www/htpasswd2
+#AuthGroupFile /dev/null
+#AuthName "Phantom Zone"
+#AuthType Basic
+
+#<Limit GET POST>
+#require valid-user
+#</Limit>
+
+#<LimitExcept GET POST>
+#Order Allow,Deny
+#</LimitExcept>
+
+php_value upload_max_filesize "25M"
